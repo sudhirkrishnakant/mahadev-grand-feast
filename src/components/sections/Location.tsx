@@ -1,7 +1,7 @@
 import { Reveal } from "@/components/Reveal";
 
 export function Location() {
-  const query = encodeURIComponent("117/232 N Block, Kakadeo, Om Chauraha, Kanpur, Uttar Pradesh 208025");
+  const query = encodeURIComponent("117/232 N Block, Kakadeo, OM Chaurah, Kanpur, Uttar Pradesh 208025");
   return (
     <section id="location" className="py-28">
       <div className="container mx-auto px-6">
@@ -14,7 +14,7 @@ export function Location() {
           <div className="glass-card rounded-3xl overflow-hidden max-w-6xl mx-auto">
             <iframe
               title="Mahadev Caterers Location"
-              src={`https://www.google.com/maps?q=${query}&output=embed`}
+              src={`https://www.google.com/maps?q=${query}&z=19&output=embed`}
               width="100%"
               height="450"
               loading="lazy"

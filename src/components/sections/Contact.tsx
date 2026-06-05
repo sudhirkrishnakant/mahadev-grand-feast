@@ -40,7 +40,7 @@ export function Contact() {
               <div className="text-xs uppercase tracking-[0.2em] text-gold mb-2">Visit Us</div>
               <p className="font-display text-2xl mb-1">Mahadev Caterers</p>
               <p className="text-muted-foreground">
-                117/232 N Block, Kakadeo, Om Chauraha,<br />
+                117/232 N Block Kakadeo OM chaurah,<br />
                 Kanpur, Uttar Pradesh – 208025
               </p>
             </div>

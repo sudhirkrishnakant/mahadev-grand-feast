@@ -31,7 +31,7 @@ export const Route = createFileRoute("/")({
         email: "sudhir.krishnakant@gmail.com",
         address: {
           "@type": "PostalAddress",
-          streetAddress: "117/232 N Block, Kakadeo, Om Chauraha",
+          streetAddress: "117/232 N Block Kakadeo OM chaurah",
           addressLocality: "Kanpur",
           addressRegion: "Uttar Pradesh",
           postalCode: "208025",
