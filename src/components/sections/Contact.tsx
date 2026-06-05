@@ -20,7 +20,7 @@ export function Contact() {
           {actions.map((a, i) => (
             <Reveal key={a.label} delay={i * 0.1}>
               <a href={a.href} target={a.href.startsWith("http") ? "_blank" : undefined} rel="noreferrer"
-                 className="glass-card rounded-2xl p-8 block text-center hover:-translate-y-2 transition-transform duration-500 group h-full">
+                className="glass-card rounded-2xl p-8 block text-center hover:-translate-y-2 transition-transform duration-500 group h-full">
                 <div className="w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-5 group-hover:scale-110 transition-transform" style={{ background: "var(--gradient-gold)" }}>
                   <a.icon className="w-7 h-7 text-royal-deep" />
                 </div>
