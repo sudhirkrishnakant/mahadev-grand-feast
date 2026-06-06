@@ -15,8 +15,8 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-10 mb-12">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{ background: "var(--gradient-gold)" }}>
-                <span className="font-display text-2xl font-bold text-royal-deep">M</span>
+              <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center p-0.5">
+                <img src="/mahadev-logo.png" alt="Mahadev" className="w-full h-full object-contain rounded-full" />
               </div>
               <div>
                 <div className="font-display text-2xl text-gold-gradient font-semibold">Mahadev Caterers</div>

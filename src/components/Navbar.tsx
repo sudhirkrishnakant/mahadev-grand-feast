@@ -32,8 +32,10 @@ export function Navbar() {
       }`}
     >
       <div className="container mx-auto px-6 flex items-center justify-between h-18 py-4">
-        <a href="#home" className="flex items-center gap-3">
-          <img src="/mahadev-logo.png" alt="Mahadev" className="w-10 h-10 rounded-full object-cover" />
+        <a href="#home" className="flex items-center gap-4">
+          <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center p-0.5">
+            <img src="/mahadev-logo.png" alt="Mahadev" className="w-full h-full object-contain rounded-full" />
+          </div>
           <div className="leading-tight">
             <div className="font-display text-xl font-semibold text-gold-gradient">Mahadev</div>
             <div className="text-[10px] tracking-[0.25em] uppercase text-muted-foreground">Caterers</div>
