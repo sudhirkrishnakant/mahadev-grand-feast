@@ -27,9 +27,8 @@ export function Navbar() {
       initial={{ y: -30, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
-        scrolled ? "glass-card border-b border-gold/20" : "bg-transparent"
-      }`}
+      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${scrolled ? "glass-card border-b border-gold/20" : "bg-transparent"
+        }`}
     >
       <div className="container mx-auto px-6 flex items-center justify-between h-18 py-4">
         <a href="#home" className="flex items-center gap-4">
