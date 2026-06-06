@@ -1,7 +1,10 @@
 import { Reveal } from "@/components/Reveal";
 
 export function Location() {
-  const query = encodeURIComponent("117/232 N Block, Kakadeo, OM Chaurah, Kanpur, Uttar Pradesh 208025");
+  // Use exact coordinates provided to show a pin on Google Maps
+  const lat = 26.477590;
+  const lng = 80.291612;
+  const query = encodeURIComponent(`${lat},${lng}`);
   return (
     <section id="location" className="py-28">
       <div className="container mx-auto px-6">
