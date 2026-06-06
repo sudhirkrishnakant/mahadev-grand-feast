@@ -32,10 +32,8 @@ export function Navbar() {
       }`}
     >
       <div className="container mx-auto px-6 flex items-center justify-between h-18 py-4">
-        <a href="#home" className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ background: "var(--gradient-gold)" }}>
-            <span className="font-display text-xl font-bold text-royal-deep">M</span>
-          </div>
+        <a href="#home" className="flex items-center gap-3">
+          <img src="/mahadev-logo.png" alt="Mahadev" className="w-10 h-10 rounded-full object-cover" />
           <div className="leading-tight">
             <div className="font-display text-xl font-semibold text-gold-gradient">Mahadev</div>
             <div className="text-[10px] tracking-[0.25em] uppercase text-muted-foreground">Caterers</div>
